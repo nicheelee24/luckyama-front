@@ -37,7 +37,7 @@ export const Promotion = () => {
                     {promotionItems && promotionItems.length && promotionItems.map((promotionItem, index) => (
                         <div key={index} className="w-auto  border-2 border-[var(--secondaryColor)] rounded">
                             <LazyLoadImage
-                                src={`${process.env.PROMO_URL}/uploads/${promotionItem?.photo}`}
+                                src={`${process.env.PROMO_URL}/ama-bundai/uploads/${promotionItem?.photo}`}
                                 alt={`Image ${index + 1}`}
                                 className="w-full h-auto"
                                 onClick={() => {
